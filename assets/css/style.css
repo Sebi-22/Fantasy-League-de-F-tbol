@@ -1,0 +1,66 @@
+.navbar {
+  letter-spacing: 0.5px;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  color: #ccc !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #00ff88 !important;
+}
+/* --- Logo general --- */
+.logo-img {
+  width: 45px;   /* tamaño base en desktop */
+  height: auto;
+}
+
+/* Efecto hover sutil */
+.logo-img:hover {
+  transform: scale(1.05);
+}
+
+/* Texto del brand */
+.navbar-brand {
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.dropdown-menu {
+  background-color: #111;
+  border: 1px solid #222;
+}
+
+.dropdown-item {
+  color: #ddd;
+}
+
+.dropdown-item:hover {
+  background-color: #00ff88;
+  color: #000;
+}
+
+/* --- Tamaños responsivos --- */
+@media (max-width: 992px) { /* Tablets */
+  .logo-img {
+    width: 38px;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) { /* Celulares */
+  .logo-img {
+    width: 32px;
+  }
+  .navbar-brand {
+    font-size: 0.95rem;
+  }
+}
