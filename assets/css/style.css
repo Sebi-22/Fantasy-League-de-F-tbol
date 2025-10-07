@@ -46,6 +46,42 @@
   color: #000;
 }
 
+/* ==========================
+   📄 ABOUT PAGE STYLES
+   ========================== */
+
+body.about-page {
+  background: radial-gradient(circle at top, #0a0a0a 0%, #000 80%);
+  overflow-x: hidden;
+}
+
+.fade-slide {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-slide.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.highlight {
+  color: #00ff8c;
+  font-weight: bold;
+}
+
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h3:hover {
+  color: #00ff8c;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+
 /* --- Tamaños responsivos --- */
 @media (max-width: 992px) { /* Tablets */
   .logo-img {
