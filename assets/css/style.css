@@ -170,6 +170,17 @@ h3:hover {
   transition: 0.3s;
   transform: scale(1.05);
 }
+/* ==========================
+   📄 CARD HOVER EFFECT
+   ========================== */
+.card p.display-5 {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.card:hover p.display-5 {
+  transform: scale(1.1);
+  color: #00ff7f;
+}
 
 
 /* --- Tamaños responsivos --- */
