@@ -9,6 +9,6 @@ async function revealElementsSequentially() {
 }
 
 // Inicia cuando carga el DOM
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', async () => { 
   await revealElementsSequentially();
 });
