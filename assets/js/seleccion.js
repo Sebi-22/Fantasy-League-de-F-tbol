@@ -1,28 +1,44 @@
 function iniciarSeleccion() {
   // Base de datos de jugadores ficticios
-  let basejugadores = [
-    // Arqueros
-    { id: 1, nombre: "Dibu Martinez", posicion: "arquero", equipo: "Argentina", precio: 8 },
-    { id: 2, nombre: "Armani", posicion: "arquero", equipo: "Argentina", precio: 6 },
-    
-    // Defensas
-    { id: 3, nombre: "Romero", posicion: "defensa", equipo: "Argentina", precio: 10 },
-    { id: 4, nombre: "Otamendi", posicion: "defensa", equipo: "Argentina", precio: 7 },
-    { id: 5, nombre: "Tagliafico", posicion: "defensa", equipo: "Argentina", precio: 8 },
-    { id: 6, nombre: "Molina", posicion: "defensa", equipo: "Argentina", precio: 7 },
-    { id: 7, nombre: "Medel", posicion: "defensa", equipo: "Chile", precio: 5 },
-    
-    // Mediocampistas
-    { id: 8, nombre: "De Paul", posicion: "mediocampista", equipo: "Argentina", precio: 9 },
-    { id: 9, nombre: "Paredes", posicion: "mediocampista", equipo: "Argentina", precio: 8 },
-    { id: 10, nombre: "Lo Celso", posicion: "mediocampista", equipo: "Argentina", precio: 7 },
-    { id: 11, nombre: "Enzo Fernandez", posicion: "mediocampista", equipo: "Argentina", precio: 10 },
-    
-    // Delanteros
-    { id: 12, nombre: "Messi", posicion: "delantero", equipo: "Argentina", precio: 15 },
-    { id: 13, nombre: "Vinicius Jr", posicion: "delantero", equipo: "Brasil", precio: 12 },
-    { id: 14, nombre: "Neymar", posicion: "delantero", equipo: "Brasil", precio: 11 }
-  ];
+  // Base de datos de jugadores ficticios
+let basejugadores = [
+  // Arqueros
+  { id: 1, nombre: "Dibu Martinez", posicion: "arquero", equipo: "Argentina", precio: 8 },
+  { id: 2, nombre: "Armani", posicion: "arquero", equipo: "Argentina", precio: 6 },
+  { id: 15, nombre: "Alisson Becker", posicion: "arquero", equipo: "Brasil", precio: 9 },
+  { id: 16, nombre: "Thibaut Courtois", posicion: "arquero", equipo: "Bélgica", precio: 10 },
+
+  // Defensas
+  { id: 3, nombre: "Romero", posicion: "defensa", equipo: "Argentina", precio: 10 },
+  { id: 4, nombre: "Otamendi", posicion: "defensa", equipo: "Argentina", precio: 7 },
+  { id: 5, nombre: "Tagliafico", posicion: "defensa", equipo: "Argentina", precio: 8 },
+  { id: 6, nombre: "Molina", posicion: "defensa", equipo: "Argentina", precio: 7 },
+  { id: 7, nombre: "Medel", posicion: "defensa", equipo: "Chile", precio: 5 },
+  { id: 17, nombre: "Virgil van Dijk", posicion: "defensa", equipo: "Países Bajos", precio: 11 },
+  { id: 18, nombre: "Achraf Hakimi", posicion: "defensa", equipo: "Marruecos", precio: 9 },
+  { id: 19, nombre: "John Stones", posicion: "defensa", equipo: "Inglaterra", precio: 8 },
+
+  // Mediocampistas
+  { id: 8, nombre: "De Paul", posicion: "mediocampista", equipo: "Argentina", precio: 9 },
+  { id: 9, nombre: "Paredes", posicion: "mediocampista", equipo: "Argentina", precio: 8 },
+  { id: 10, nombre: "Lo Celso", posicion: "mediocampista", equipo: "Argentina", precio: 7 },
+  { id: 11, nombre: "Enzo Fernandez", posicion: "mediocampista", equipo: "Argentina", precio: 10 },
+  { id: 20, nombre: "Jude Bellingham", posicion: "mediocampista", equipo: "Inglaterra", precio: 12 },
+  { id: 21, nombre: "Pedri", posicion: "mediocampista", equipo: "España", precio: 11 },
+  { id: 22, nombre: "Valverde", posicion: "mediocampista", equipo: "Uruguay", precio: 10 },
+  { id: 23, nombre: "Modric", posicion: "mediocampista", equipo: "Croacia", precio: 9 },
+
+  // Delanteros
+  { id: 12, nombre: "Messi", posicion: "delantero", equipo: "Argentina", precio: 15 },
+  { id: 13, nombre: "Vinicius Jr", posicion: "delantero", equipo: "Brasil", precio: 12 },
+  { id: 14, nombre: "Neymar", posicion: "delantero", equipo: "Brasil", precio: 11 },
+  { id: 24, nombre: "Mbappé", posicion: "delantero", equipo: "Francia", precio: 14 },
+  { id: 25, nombre: "Haaland", posicion: "delantero", equipo: "Noruega", precio: 13 },
+  { id: 26, nombre: "Lautaro Martínez", posicion: "delantero", equipo: "Argentina", precio: 10 },
+  { id: 27, nombre: "Salah", posicion: "delantero", equipo: "Egipto", precio: 12 },
+  { id: 28, nombre: "Harry Kane", posicion: "delantero", equipo: "Inglaterra", precio: 11 }
+];
+
 
   // Elementos del HTML
   const tablaJugadores = document.getElementById("tablaJugadores");
